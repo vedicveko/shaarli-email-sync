@@ -1,0 +1,21 @@
+<?PHP
+
+define('CSV_FILE', './urls.csv'); // A backup or URLs seen
+define('LOG_FILE', './log.txt');
+
+define('IMAP_HOST', 'imap.gmail.com:993');
+define('IMAP_FOLDER', 'From Me'); // Messages in this folder will be synced and marked as read
+define('IMAP_FOLDER_DELETE', 'URL Save'); // Messages in this folder will by synced and deleted
+define('IMAP_USER', 'test@examples.com');
+define('IMAP_PASS',  'butts');
+define('IMAP_SEARCH', 'UNSEEN'); // UNSEEN OR ALL
+define('IMAP_PATH', '/imap/ssl');
+
+define('SHAARLI_URL', 'https://example.com/shaarli');
+define('SHAARLI_SECRET', 'morebutts');
+
+define('BACKUP_DIR', '/home/dean/public_html/url_backup');
+define('BACKUP_URL', 'http://192.168.1.42:4242/url_backup');
+
+require_once('functions.php');
+
